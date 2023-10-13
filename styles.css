@@ -1,0 +1,68 @@
+body {
+    margin: 5px;
+    padding: 10px;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+
+section{
+    border: 1px;
+    border-color: black;
+    text-align: left;
+}
+
+nav{
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+nav a {
+    color: black;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.sub-header{
+    margin-top: 5px;
+}
+
+#sidebar{
+    width: 25%; /* Adjust the width as needed */
+    padding: 10px;
+}
+
+.news-item{
+
+}
+
+.news-text{
+    font-size: 15px;
+}
+
+.news-date{
+ font-size: 10px;
+}
